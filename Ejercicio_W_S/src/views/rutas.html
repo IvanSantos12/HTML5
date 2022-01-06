@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ws,html,js">
+    <meta name="description" content="Ejemplo de Web Semantica">
+    <meta name="author" content="Ivan Gonzales">
+    <title>Document</title>
+</head>
+<body>  
+  <!--Rutas de exploración RDFa|-->
+  <main>
+  <ol vocab="https://schema.org/" typeof="BreadcrumbList">
+      <li property="itemListElement" typeof="ListItem">
+          <a property="item" typeof="WebPage" href="https://example.com/books/">
+              <span property="name">Data html</span></a>
+          <meta property="position" content="1">
+      </li>
+      <li property="itemListElement" typeof="ListItem">
+          <a property="item" typeof="WebPage" href="https://example.com/books/sciencefictioncss">
+              <span property="name">Data css</span>
+          </a>
+          <meta property="position" content="2">
+      </li>
+      <li property="itemListElement" typeof="ListItem">
+          <a property="item" typeof="WebPage" href="https://example.com/books/sciencefictionjs">
+              <span property="name">Data js</span>
+          </a>
+          <meta property="position" content="3">
+      </li>
+      <li property="itemListElement" typeof="ListItem">
+          <a property="item" typeof="WebPage" href="https://example.com/books/sciencefictionpy">
+              <span property="name">Data py</span>
+          </a>
+          <meta property="position" content="4">
+      </li>
+  </ol>
+  </main>
+
+</body>
+</html>

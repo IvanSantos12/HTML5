@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Favicon.gif">
+    <title>HTML JavaScript</title>
+</head>
+
+<body>
+    <!--HTML & JavaScript-->
+
+    <p id="texto">JavaScript</p>
+    <p id="hora">---</p>
+    <button type="button" onclick="camColor()">cambiar</button>
+   
+    <script>
+        function camColor(){
+            document.getElementById("texto").style.background ="blue";
+            document.getElementById("texto").style.color= "white"
+            document.getElementById("texto").innerHTML = "Cambio de Color"
+            document.getElementById("hora").innerHTML = Date();
+        }
+    </script>
+
+</body>
+</html>

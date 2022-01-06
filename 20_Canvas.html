@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <style>
+
+        #myCamvas{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <canvas id="myCamvas" width="200" height="100"> </canvas>
+
+    <script>
+        let Canvas = document.getElementById("myCamvas");
+        let dj = Canvas.getContext("2d");
+        dj.font = "70px, Arial"
+        dj.fillText("GowPlay", 30, 50);
+        // dj.beginPath();
+        // dj.arc(90, 50, 40, 0, 2 * Math.PI);
+        //dj.moveTo(0,0);
+        //dj.lineTo(150, 100);
+         dj.stroke();
+    </script>
+    
+</body>
+</html>

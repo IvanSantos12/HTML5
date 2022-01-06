@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes en HTML</title>
+</head>
+<body>
+
+    <!--Imagenes en HTML-->
+    <img src="img/Java.png" alt="Lenguaje de programación Java" style="height: 100px; width: 150px;"> <br><br>
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="w3schools">
+
+    <h4 style="font-size: 40px;">Galeria</h4>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="img/Java.png">
+        <source media="(min-width:550px)" srcset="https://www.w3schools.com/images/w3schools_green.jpg">
+        <img src="img/nodejs.png" alt="Lenguaje de programación" style="width: auto;">
+    </picture>
+    
+</body>
+</html>
